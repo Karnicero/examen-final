@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+/*GAAAAA COMIENZO*/
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header{
+
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://1.bp.blogspot.com/-kjrq-hWHqlI/XGs6gB5-tDI/AAAAAAABNY0/AqmAfCKWC44OTnXOcpLFZ35MQQ9tY-dFgCLcBGAs/s1600/universidad-federico-villarreal.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.pie{
+    background: #ff6d18;
+}
+img{
+    width: 40px;
+}
+.logo{
+    align-items: center;
+    gap: 20px
+}
+span{
+    font-size: 30px;
+}
+.fb{
+    background: rgb(0, 81, 255);
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+.tw{
+    background: rgb(0, 140, 255);
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 200px;
+    align-items: center;
+}
+.logotipo{
+    font-size: 20px;
+    color: white;
+
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.section div{
+    display: flex;
+    flex-direction: column;
+}
+div h2{
+    color: white;
+    padding: 10px 0;
+}
+a{
+    color: rgba(0, 0, 0, 0.527);
+    text-decoration: none;
+    padding: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    background: none;
+    border: solid 2px white;
+    padding: 10px 20px;
+}
+button{
+    padding: 10px 20px;
+    background: white;
+    color: blueviolet;
+    font-size: 18px;
+}
+.derechos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #0a0433;
+    color: white;
+}
+nav{
+
+
+    height:100px;
+    max-width: 1000px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+
+    width: 30px;
+    margin-left:20px;
+}
+.bar-btn{
+
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav-menu {
+
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100%;
+    background: rgb(199, 199, 199);
+    text-align: center;
+    transition: all 0.5s;
+
+}
+.nav-menu li {
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition:all 0.5s;
+
+}
+.nav-menu li a{
+    color: rgb(250, 250, 250);
+    font-size:16px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.nav-menu li a.active,
+.nav-menu li a:hover{
+    color: rgb(0, 255, 179);
+    transition: 0.3s;
+
+
+}
+#check{
+
+
+    display: none;
+
+}
+#check:checked ~ .nav-menu {
+      height: 100vh;
+}
+
+#check:checked ~ .nav-menu li {
+    display: block;
+}
+ 
+.banner-text{
+    padding-top: 10px;
+    text-align: center;
+}
+.banner-text h1 {
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+.banner-text p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 40px;
+}
+
+.btn-a{
+    display: inline-block;
+    background-color: rgb(255, 94, 0);
+    margin-top: 30px;
+    padding: 15px 30px;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+.btn-a:hover{
+
+    background-color: rgb(252, 252, 252);
+
+}
+@media (min-width:800px){
+
+    .logo{
+        margin-left: 0;
+    }
+    header{
+        height: 100vh;
+    }
+    nav{
+        height: 40px;
+        margin: 0 auto;
+
+    }
+    .bar-btn{
+        display: none;
+
+    }
+    .nav-menu{
+        position:relative;
+        height: 20px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: left;
+        margin-right: 60px;
+
+    }
+    .nav-menu li {
+        display: inline-block;
+        line-height: 10px;
+        margin:0px;
+        transition: none;
+    }
+    .nav-menu li a {
+        font-size: 15px;
+    }
+    .container{
+        max-width: 1200px;
+        margin:0;
+    }
+    .banner-text{
+        padding-top: 200px;
+    }
+    .banner-text h1 {
+        font-size: 50px;
+    }
+    .banner-text p{
+        padding: 20px 300px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Exo 2', sans-serif;
+    }
+    .pie{
+        background: #ff6d18;
+    }
+    img{
+        width: 40px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 20px
+    }
+    span{
+        font-size: 30px;
+    }
+    .fb{
+        background: rgb(0, 81, 255);
+        padding: 10px;
+        border-radius: 50px;
+        color: white;
+    }
+    .tw{
+        background: rgb(0, 140, 255);
+        padding: 10px;
+        border-radius: 50px;
+        color: white;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+    }
+    .logotipo{
+        font-size: 20px;
+        color: white;
+    
+    }
+    .section{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 40px;
+    }
+    .section div{
+        display: flex;
+        flex-direction: column;
+    }
+    div h2{
+        color: white;
+        padding: 10px 0;
+    }
+    a{
+        color: rgba(255, 255, 255, 0.527);
+        text-decoration: none;
+        padding: 5px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    input{
+        background: none;
+        border: solid 2px white;
+        padding: 10px 20px;
+    }
+    button{
+        padding: 10px 20px;
+        background: white;
+        color: blueviolet;
+        font-size: 18px;
+    }
+    .derechos{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background: #0a0433;
+        color: white;
+    }
+}
+
